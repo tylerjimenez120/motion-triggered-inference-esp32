@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "src/main.cpp"
+        "src/adxl345_sensor.cpp"
+        "src/esp32_power_manager.cpp"
+        "src/mnist_inference_engine.cpp"
+        "model_data.cc"
+        "test_image_data.cc"
+    INCLUDE_DIRS
+        "include"
+)
